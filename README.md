@@ -1,6 +1,6 @@
-
-
-
+<div align="center">
+  <img src="./public/screenshot.png" alt="Portfolio Screenshot" />
+</div>
 
 A modern, high-performance **3D developer portfolio website** built with **React**, **TypeScript**, **Three.js**, **GSAP**, and **WebGL**.
 
