@@ -1,7 +1,278 @@
-# Personal Portfolio
 
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 G SHAHITH - Personal Portfolio
 
+<div align="center">
+
+### AI Engineer | Full Stack Developer
+
+A premium cyber-themed portfolio showcasing my projects, certifications, technical skills, and professional journey.
+
+🌐 **Live Portfolio:** *(Add your deployed portfolio URL here)*
+
+[![Portfolio](https://img.shields.io/badge/Portfolio-Live-black?style=for-the-badge)](YOUR_PORTFOLIO_URL)
+[![GitHub](https://img.shields.io/badge/GitHub-SAHHITH-black?style=for-the-badge&logo=github)](https://github.com/SAHHITH)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-G%20SHAHITH-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shahith-gilbert-379bb1333)
+
+</div>
+
+---
+
+# 📌 About
+
+Welcome to my personal portfolio.
+
+I am an **AI Engineer and Full Stack Developer** passionate about building intelligent applications using Artificial Intelligence, Machine Learning, Generative AI, and modern web technologies.
+
+This portfolio highlights my technical skills, featured projects, certifications, and resume through a premium cyber-inspired user experience.
+
+---
+
+# ✨ Features
+
+- Premium Cyberpunk UI
+- Responsive Design
+- Smooth Animations
+- Interactive Project Showcase
+- Individual Project Detail Pages
+- Certificate Gallery
+- Individual Certificate Pages
+- Resume Preview
+- Resume Download
+- GitHub Integration
+- LinkedIn Integration
+- Performance Optimized
+- SEO Friendly
+
+---
+
+# 🛠 Tech Stack
+
+## Frontend
+
+- React.js
+- Next.js
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+## Backend
+
+- FastAPI
+- Node.js
+- REST API
+
+## AI & ML
+
+- Python
+- Machine Learning
+- Generative AI
+- Natural Language Processing
+- Large Language Models (LLMs)
+- Prompt Engineering
+
+## Database
+
+- MongoDB
+- Firebase
+- PostgreSQL
+
+## Deployment
+
+- Vercel
+- Netlify
+
+---
+
+# 💼 Featured Projects
+
+## 🤖 MetaHuman Chat Bot
+
+AI-powered conversational digital human built using Unreal Engine 5 and MetaHuman Creator with natural language interaction and voice communication.
+
+### Tech
+
+- Unreal Engine 5
+- MetaHuman Creator
+- FastAPI
+- Python
+- AI
+- NLP
+
+---
+
+## 🌊 AquaCast
+
+AI-powered marine weather forecasting and fisherman safety platform providing real-time weather intelligence, navigation support, and smart decision-making.
+
+### Tech
+
+- React
+- FastAPI
+- Mapbox
+- Python
+- Weather APIs
+- AI
+
+---
+
+## 🌱 CarbonTrack AI
+
+Full-stack sustainability platform that monitors carbon footprints, visualizes environmental impact, and provides AI-powered sustainability insights.
+
+### Tech
+
+- Next.js
+- Node.js
+- MongoDB
+- AI
+
+---
+
+# 🎓 Certifications
+
+- Quantium – Data Analytics Job Simulation
+- Datacom – Introduction to Cloud Job Simulation
+- Tata – GenAI Powered Data Analytics Job Simulation
+- Tata – Cybersecurity Analyst Job Simulation
+- Deloitte Australia – Data Analytics Job Simulation
+- NVIDIA – Getting Started with AI on Jetson Nano
+- AI DevOps Analyst (NASSCOM)
+- Artificial Intelligence Foundations: Machine Learning (LinkedIn Learning)
+
+---
+
+# 💻 Skills
+
+### Programming Languages
+
+- Python
+- JavaScript
+- TypeScript
+- SQL
+
+### Frontend
+
+- React.js
+- Next.js
+- Tailwind CSS
+- HTML5
+- CSS3
+
+### Backend
+
+- FastAPI
+- Node.js
+- REST API
+
+### AI & ML
+
+- Machine Learning
+- Deep Learning
+- NLP
+- Generative AI
+- LLMs
+- Prompt Engineering
+
+### Database
+
+- MongoDB
+- PostgreSQL
+- Firebase
+
+### Tools
+
+- Git
+- GitHub
+- Docker
+- VS Code
+- Postman
+
+---
+
+# 📂 Project Structure
+
+```
+portfolio/
+│
+├── app/
+├── components/
+├── public/
+│   ├── images/
+│   ├── certificates/
+│   └── resume/
+├── styles/
+├── lib/
+├── utils/
+└── README.md
+```
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/SAHHITH/portfolio.git
+```
+
+Move into the project
+
+```bash
+cd portfolio
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Run the development server
+
+```bash
+npm run dev
+```
+
+Open
+
+```
+http://localhost:3000
+```
+
+---
+
+# 📬 Contact
+
+**G SHAHITH**
+
+📧 shahithgilbert42@gmail.com
+
+📍 Chennai, India
+
+GitHub
+
+https://github.com/SAHHITH
+
+LinkedIn
+
+https://www.linkedin.com/in/shahith-gilbert-379bb1333
+
+---
+
+# 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+### ⭐ If you like this portfolio, consider giving the repository a Star!
+
+Made with ❤️ by **G SHAHITH**
+
+</div>
 ## Getting Started
 
 First, run the development server:
@@ -20,19 +291,5 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
