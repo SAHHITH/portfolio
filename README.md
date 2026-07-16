@@ -1,3 +1,4 @@
+<img width="1918" height="972" alt="Screenshot 2026-07-16 133828" src="https://github.com/user-attachments/assets/fb5923ed-b7f5-45a9-908e-40ed0d5ed818" />
 
 # 🚀 G SHAHITH - Personal Portfolio
 
