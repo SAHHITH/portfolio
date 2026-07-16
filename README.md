@@ -1,4 +1,4 @@
-<img width="1918" height="972" alt="Screenshot 2026-07-16 133828" src="https://github.com/user-attachments/assets/fb5923ed-b7f5-45a9-908e-40ed0d5ed818" />
+
 
 # 🚀 G SHAHITH - Personal Portfolio
 
@@ -15,7 +15,7 @@ A premium cyber-themed portfolio showcasing my projects, certifications, technic
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-G%20SHAHITH-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/shahith-gilbert-379bb1333)
 
 </div>
-
+<img width="1918" height="972" alt="Screenshot 2026-07-16 133828" src="https://github.com/user-attachments/assets/fb5923ed-b7f5-45a9-908e-40ed0d5ed818" />
 ---
 
 # 📌 About
