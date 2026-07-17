@@ -2,6 +2,7 @@
 
 import { Download, Github, Linkedin, Zap } from "lucide-react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export const Footer = () => (
   <footer id="contact" className="relative bg-white pt-24 pb-12 overflow-hidden border-t-[12px] border-black scroll-mt-24">
@@ -33,14 +34,17 @@ export const Footer = () => (
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.2 }}
-            className="font-bebas text-7xl md:text-[10rem] leading-[0.8] tracking-tighter italic text-black uppercase"
+            className="font-bebas text-7xl md:text-[6rem] lg:text-[7.5rem] leading-[0.8] tracking-tighter italic text-black uppercase flex flex-col md:flex-row md:items-end gap-4 md:gap-8"
           >
-            G <br />
-            <span className="relative">
-              SHAHITH
-              {/* Scratchy "Pen Strike" under the name */}
-              <div className="absolute -bottom-2 left-0 w-full h-4 bg-black skew-x-[-20deg]" />
-            </span>
+            <Image src="/images/sg-logo.jpeg" alt="SG Logo" width={128} height={128} className="w-24 h-24 md:w-32 md:h-32 object-cover border-4 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)]" />
+            <div>
+              G <br />
+              <span className="relative">
+                SHAHITH
+                {/* Scratchy "Pen Strike" under the name */}
+                <div className="absolute -bottom-2 left-0 w-full h-4 bg-black skew-x-[-20deg]" />
+              </span>
+            </div>
           </motion.h2>
         </div>
 
@@ -50,7 +54,7 @@ export const Footer = () => (
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
           transition={{ delay: 0.4 }}
-          className="md:col-span-5 flex flex-col gap-6 border-b-[6px] border-black pb-4"
+          className="md:col-span-5 flex flex-col gap-6 border-b-[6px] border-black pb-4 relative z-20"
         >
            <div className="space-y-1">
              <p className="font-black text-[10px] uppercase tracking-widest text-black/70 flex items-center gap-2">

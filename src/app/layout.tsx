@@ -22,7 +22,7 @@ export const metadata = {
     title: "G Shahith | AI & Systems Engineer",
     description: "Systems Engineer specializing in high-stakes automation and AI.",
     url: "https://opsora.in",
-    images: [{ url: "/images/manga-pfp.png" }],
+    images: [{ url: "/images/sg-logo.jpeg" }],
   },
 };
 

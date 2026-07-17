@@ -53,7 +53,9 @@ export default function MangaHero() {
             animate={{ x: 0, opacity: 1 }}
             transition={{ duration: 0.8, ease: "easeOut" }}
             style={{ x: titleX, y: titleY }}
+            className="flex flex-col md:flex-row md:items-end gap-6 md:gap-8"
           >
+            <Image src="/images/sg-logo.jpeg" alt="SG Logo" width={160} height={160} className="w-24 h-24 md:w-40 md:h-40 object-cover border-4 border-black shadow-[6px_6px_0px_0px_rgba(0,0,0,1)] rounded-sm" />
             <h1 
               className="text-7xl md:text-[11rem] font-bebas leading-[0.82] tracking-tighter italic bg-clip-text text-transparent bg-gradient-to-r from-black via-gray-600 to-black bg-[length:200%_auto] animate-sweep"
               style={{ textShadow: "10px 10px 20px rgba(0,0,0,0.15), 2px 2px 0px rgba(0,0,0,0.8)" }}

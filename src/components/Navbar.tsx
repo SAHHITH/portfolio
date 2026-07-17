@@ -5,6 +5,7 @@ import { usePathname } from "next/navigation";
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Github, Linkedin } from "lucide-react"; // Added Zap for 'Energy'
+import Image from "next/image";
 
 export function Navbar() {
   const pathname = usePathname();
@@ -23,19 +24,21 @@ export function Navbar() {
         {/* Brand: JJK Title Card Style */}
         <Link
           href="/"
-          className="group relative flex flex-col font-bebas leading-[0.8] tracking-tighter"
+          className="group relative flex items-center gap-3 font-bebas leading-[0.8] tracking-tighter"
         >
-          <div className="flex items-center gap-1">
-            <span className="text-black text-4xl group-hover:italic transition-all duration-150 italic">
-              G{" "}
+          <Image src="/images/sg-logo.jpeg" alt="SG Logo" width={48} height={48} className="w-12 h-12 object-cover border-2 border-black rounded shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] group-hover:scale-105 transition-transform" />
+          <div className="flex flex-col">
+            <div className="flex items-center gap-1">
+              <span className="text-black text-4xl group-hover:italic transition-all duration-150 italic">
+                G{" "}
+              </span>
+            </div>
+            <span className="text-transparent text-4xl [-webkit-text-stroke:1.5px_black] group-hover:text-black transition-colors duration-150">
+              SHAHITH
             </span>
-            {/* <Zap size={18} fill="black" className="animate-pulse" /> */}
+            {/* Decorative 'Seal' line */}
+            <div className="absolute -bottom-1 left-14 w-0 h-1 bg-black group-hover:w-[calc(100%-3.5rem)] transition-all duration-150" />
           </div>
-          <span className="text-transparent text-4xl [-webkit-text-stroke:1.5px_black] group-hover:text-black transition-colors duration-150">
-            SHAHITH
-          </span>
-          {/* Decorative 'Seal' line */}
-          <div className="absolute -bottom-1 left-0 w-0 h-1 bg-black group-hover:w-full transition-all duration-150" />
         </Link>
 
 
